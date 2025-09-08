@@ -1,6 +1,12 @@
 name-template: 'v$RESOLVED_VERSION 🌈'
 tag-template: 'v$RESOLVED_VERSION'
 categories:
+  - title: '🔧 Manual'
+    labels:
+      - 'manual'
+  - title: '🚨 Breaking'
+    labels:
+      - 'breaking'
   - title: '🚀 Features'
     labels:
       - 'feature'
@@ -51,6 +57,9 @@ autolabeler:
     files:
       - '*.md'
       - '.github/**/*'
+      - '/chore\/.+/'
+      - '/workflow\/.+/'
+      - '/workflows\/.+/'
     branch:
       - '/cleanup\/.+/'
   - label: 'test'
