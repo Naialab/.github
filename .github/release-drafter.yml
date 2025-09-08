@@ -1,9 +1,9 @@
 name-template: 'v$RESOLVED_VERSION 🌈'
 tag-template: 'v$RESOLVED_VERSION'
 categories:
-  - title: '🔧 Manual'
+  - title: '🔧 Infrastructure'
     labels:
-      - 'manual'
+      - 'infrastructure'
   - title: '🚨 Breaking'
     labels:
       - 'breaking'
